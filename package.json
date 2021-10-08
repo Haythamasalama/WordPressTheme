@@ -1,0 +1,26 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "this is my website ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "author": "Haytham Salama",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.6",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "vue": "^3.2.20"
+  }
+}
